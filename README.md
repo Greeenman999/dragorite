@@ -1,9 +1,5 @@
-# Fabric Example Mod
+# Dragorite Mod
 
-## Setup
+This is the official Dragorite Mod, which is a mod, that adds a custom ore with custom armor and tools.
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+(The name comes not from the Pokemon, it's "Dragon" and "Netherite" combined to "Dragorite")

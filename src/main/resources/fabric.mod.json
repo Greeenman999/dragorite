@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "dragorite",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Dragorite",
+  "description": "This mod adds a custom ore called Dragorite with custom Armor, Tools etc.",
   "authors": [
-    "Me!"
+    "Greenman999#8421"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://greenman999.de/",
+    "sources": "https://github.com/Greeenman999/dragorite"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/dragorite/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "de.greenman999.dragorite.Dragorite"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "dragorite.mixins.json"
   ],
 
   "depends": {
@@ -33,6 +33,6 @@
     "java": ">=17"
   },
   "suggests": {
-    "another-mod": "*"
+
   }
 }
