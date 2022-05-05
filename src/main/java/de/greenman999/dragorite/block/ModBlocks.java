@@ -1,6 +1,7 @@
 package de.greenman999.dragorite.block;
 
 import de.greenman999.dragorite.Dragorite;
+import de.greenman999.dragorite.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -13,7 +14,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block DRAGORITE_BLOCK = registerBlock("dragorite_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ItemGroup.MISC);
+    public static final Block DRAGORITE_BLOCK = registerBlock("dragorite_block", new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.DRAGORITE);
+    public static final Block DRAGORITE_ORE = registerBlock("dragorite_ore", new Block(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.DRAGORITE);
+    public static final Block RAW_DRAGORITE_BLOCK = registerBlock("raw_dragorite_block", new Block(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.DRAGORITE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

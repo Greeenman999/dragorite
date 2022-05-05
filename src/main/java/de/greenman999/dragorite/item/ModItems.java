@@ -9,9 +9,9 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems {
 
-    public static final Item DRAGORITE_INGOT = registerItem("dragorite_ingot", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item DRAGORITE_NUGGET = registerItem("dragorite_nugget", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
-    public static final Item RAW_DRAGORITE = registerItem("raw_dragorite", new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item DRAGORITE_INGOT = registerItem("dragorite_ingot", new Item(new FabricItemSettings().group(ModItemGroup.DRAGORITE)));
+    public static final Item DRAGORITE_NUGGET = registerItem("dragorite_nugget", new Item(new FabricItemSettings().group(ModItemGroup.DRAGORITE)));
+    public static final Item RAW_DRAGORITE = registerItem("raw_dragorite", new Item(new FabricItemSettings().group(ModItemGroup.DRAGORITE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(Dragorite.MOD_ID, name), item);
