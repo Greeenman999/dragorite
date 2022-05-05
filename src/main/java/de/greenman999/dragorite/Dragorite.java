@@ -1,5 +1,6 @@
 package de.greenman999.dragorite;
 
+import de.greenman999.dragorite.block.ModBlocks;
 import de.greenman999.dragorite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Dragorite implements ModInitializer {
 		LOGGER.info("Loaded!");
 
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

@@ -1,5 +1,6 @@
 {
   "item.dragorite.dragorite_ingot": "Dragorite Ingot",
   "item.dragorite.dragorite_nugget": "Dragorite Nugget",
-  "item.dragorite.raw_dragorite": "Raw Dragorite"
+  "item.dragorite.raw_dragorite": "Raw Dragorite",
+  "block.dragorite.dragorite_block": "Dragorite Block"
 }

@@ -1,5 +1,6 @@
 {
   "item.dragorite.dragorite_ingot": "Dragorite Barren",
   "item.dragorite.dragorite_nugget": "Dragorite Klumpen",
-  "item.dragorite.raw_dragorite": "Rohes Dragorite"
+  "item.dragorite.raw_dragorite": "Rohes Dragorite",
+  "block.dragorite.dragorite_block": "Dragorite Block"
 }
