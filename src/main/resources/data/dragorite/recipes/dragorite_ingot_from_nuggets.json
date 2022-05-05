@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "dragorite_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "dragorite:dragorite_nugget"
+    }
+  },
+  "result": {
+    "item": "dragorite:dragorite_ingot"
+  }
+}

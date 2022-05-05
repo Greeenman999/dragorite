@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "dragorite_ingot",
+  "ingredients": [
+    {
+      "item": "dragorite:dragorite_block"
+    }
+  ],
+  "result": {
+    "item": "dragorite:dragorite_ingot",
+    "count": 9
+  }
+}

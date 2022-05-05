@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "dragorite_ingot",
+  "ingredient": {
+    "item": "dragorite:dragorite_ore"
+  },
+  "result": "dragorite:dragorite_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}
